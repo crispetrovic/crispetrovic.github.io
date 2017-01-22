@@ -6,8 +6,11 @@ body {
 }
 
 .header {
-  color: #2caa90;
   padding: 15px;
+}
+
+h2 {
+    color: #2caa90;
 }
 
 .content {

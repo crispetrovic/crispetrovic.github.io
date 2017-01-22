@@ -13,9 +13,14 @@ h2 {
     color: #2caa90;
 }
 
+.thumbnail {
+  background-color: #2caa90;
+  display: flex;
+  padding: 15px;
+}
 .content {
-  background-color: #901eae;
-  color: #eeeeee;
+  background-color: #eeeeee;
+  color: #901eae;
   display: flex;
   padding: 15px;
 }

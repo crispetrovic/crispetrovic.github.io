@@ -18,15 +18,18 @@ h2 {
   display: flex;
   padding: 15px;
 }
-.main-info {
+.content {
   background-color: #eeeeee;
   color: #901eae;
   display: flex;
   padding: 15px;
-  -webkit-column-count: 4;
-  -moz-column-count: 4;
-  column-count: 4;
 
+}
+
+#main-info{
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
 }
 
 li{

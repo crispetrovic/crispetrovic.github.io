@@ -25,12 +25,13 @@ h2 {
   padding: 15px;
 
 }
-
+/*
 #main-info{
     -webkit-column-count: 4;
     -moz-column-count: 4;
     column-count: 4;
 }
+*/
 
 li{
     color: #2caa90;

@@ -30,7 +30,6 @@ body {
 
 #main-text{
   position: absolute !important;
-  color: #901eae;
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -38,7 +37,7 @@ body {
 }
 
 #main-text * {
-  color: #FFFFFF;
+  color: #901eae;
   font-family: "Avenir Next";
   text-align: center;
   line-height: 1.1em;

@@ -8,6 +8,7 @@ body {
 #main {
   position: relative !important;
   width: 100%;
+  border-bottom: solid 2px #901eae;
 }
 
 #mask{

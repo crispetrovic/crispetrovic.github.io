@@ -1,6 +1,6 @@
 body {
   background-color: #FFFFFF;
-  color: #901eae;
+  /*color: #901eae;*/
   margin: 0;
   padding: 0;
 }
@@ -38,6 +38,7 @@ body {
 
 #main-text * {
   color: #FFFFFF;
+  background-color: #901eae;
   font-family: "Avenir Next";
   text-align: center;
   line-height: 1.1em;

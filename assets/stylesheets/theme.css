@@ -1,46 +1,136 @@
 body {
-  background-color: #E6E6FA;
+  background-color: #FFFFFF;
   color: #901eae;
   margin: 0;
   padding: 0;
 }
 
-.header {
-  padding: 15px;
-  margin: 8px;
+#main {
+  position: relative !important;
+  width: 100%;
 }
 
-h2 {
-    color: #000000;
+#mask{
+  opacity: 0.4;
+  position: absolute !important;
+  top: 0;
+  right: 0;
+  bottom: 1.7em;
+  left: 0;
+  background-color: #333333;
 }
 
-h3{
-    font-size: 14px;
-    color: #000000;
+.wrapper {
+  position: relative;
 }
 
-.highlight{
-    color: #901eae;
-}
-
-.thumbnail {
-  background-color: #000000;
-  display: flex;
-  padding: 10px;
-}
-
-.content {
-  background-color: #eeeeee;
-  color: #000000;
-  display: flex;
-  padding: 15px;
+.wrapper-right{
 
 }
 
-#tenthlife{
-    color: #C97004;
+#main-text{
+  position: absolute !important;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
 }
 
-p {
-  margin: 0 15px;
+#main-text * {
+  color: #FFFFFF;
+  font-family: "Avenir Next";
+  text-align: center;
+  line-height: 1.1em;
+}
+
+#main-text h1{
+  font-size: 3.5em;
+  font-weight: 600;
+}
+
+#main h2{
+  font-size: 32px;
+  font-weight: 500;
+}
+
+#main p{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.portfolio-item{
+  background: #ffffff !important;
+  margin-top: 2em;
+  min-height: 380px;
+  margin-bottom: 1em;
+}
+
+.portfolio-item a{
+  color: #901eae;
+}
+
+.section-header {
+ background-color: #901eae;
+ padding: 2em 0 2em 40vw;
+}
+
+.section-header * {
+  color: #ffffff;
+  line-height: 1.3em;
+  margin: 0;
+}
+
+.section-body {
+  padding-left: 40vw;
+  padding-top: 1em;
+  padding-right: 3em;
+}
+
+.learn-more-button {
+  height: 25px;
+  width: 125px;
+  color: #901eae;
+  font-family: "Avenir Next";
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  font-weight: normal;
+  padding: .5em;
+  border: 2px solid #901eae;
+  margin-top: .4em;
+  display: inline-block;
+}
+
+.section-image{
+  position: absolute !important;
+  width: 38vw;
+  max-width: 515px;
+  top: -1em;
+  right: 60vw;
+  padding-right: 1em;
+}
+
+.wrapper-right .section-header {
+    background-color: #a8a8a8;
+    padding: 2em 40vw 2em 0;
+    text-align: right;
+}
+
+.wrapper-right .section-image{
+    left: 60vw;
+    right: none;
+    padding-right: 0;
+    padding-left: 1em;
+}
+
+.wrapper-right .section-body{
+    padding-left: 3em;
+    padding-right: 40vw;
+    text-align: right;
+}
+
+.gray-line{
+  border: solid 0 #dddddd;
+  border-top-width: 1px;
+  height: 1em;
 }

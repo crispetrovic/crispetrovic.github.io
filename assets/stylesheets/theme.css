@@ -110,6 +110,7 @@ body {
   top: -1em;
   right: 60vw;
   padding-right: 1em;
+  border: solid 1px #000000;
 }
 
 .wrapper-right .section-header {

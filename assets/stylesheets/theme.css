@@ -12,7 +12,7 @@ body {
 }
 
 #main-photo {
-    align: center;
+    float: right;
 }
 
 #mask{

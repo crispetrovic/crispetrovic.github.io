@@ -11,6 +11,10 @@ body {
   border-bottom: solid 2px #901eae;
 }
 
+#main-photo {
+    align: center;
+}
+
 #mask{
   opacity: 0.4;
   position: absolute !important;

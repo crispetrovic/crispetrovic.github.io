@@ -82,6 +82,7 @@ body {
 
 .section-header * {
   color: #ffffff;
+  font-family: "Avenir Next";
   line-height: 1.3em;
   margin: 0;
 }
@@ -90,6 +91,7 @@ body {
   padding-left: 40vw;
   padding-top: 1em;
   padding-right: 3em;
+  font-family: "Avenir Next";
 }
 
 .learn-more-button {

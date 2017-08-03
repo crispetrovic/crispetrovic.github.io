@@ -11,11 +11,6 @@ body {
   border-bottom: solid 2px #000000;
 }
 
-#photo-div{
-   display: inline-block;
-   float: right;
-}
-
 #main-photo{
     margin-bottom: -4px;
 }

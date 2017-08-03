@@ -8,9 +8,12 @@ body {
 #main {
   position: relative !important;
   width: 100%;
-  border-bottom: solid 2px #901eae;
+  border-bottom: solid 2px #000000;
 }
 
+#main-photo{
+    margin-bottom: -4px;
+}
 
 #mask{
   opacity: 0.4;

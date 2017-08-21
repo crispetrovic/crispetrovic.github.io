@@ -42,7 +42,7 @@ body {
 }
 
 #main-text * {
-  color: #901eae;
+  color: #b698cc;
   font-family: "Avenir Next";
   text-align: center;
   line-height: 1.1em;
@@ -71,11 +71,11 @@ body {
 }
 
 .portfolio-item a{
-  color: #901eae;
+  color: #b698cc;
 }
 
 .section-header {
- background-color: #901eae;
+ background-color: #b698cc;
  font-family: "Avenir Next";
  padding: 2em 0 2em 40vw;
 }
@@ -97,14 +97,14 @@ body {
 .learn-more-button {
   height: 25px;
   width: 125px;
-  color: #901eae;
+  color: #b698cc;
   font-family: "Avenir Next";
   font-size: 18px;
   line-height: 25px;
   text-align: center;
   font-weight: normal;
   padding: .5em;
-  border: 2px solid #901eae;
+  border: 2px solid #b698cc;
   margin-top: .4em;
   display: inline-block;
 }
